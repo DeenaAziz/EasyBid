@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.deena.easybid.MyRequests">
+
+    <Button
+        android:id="@+id/incompleted"
+        android:layout_width="142dp"
+        android:layout_height="94dp"
+        android:text="Incompleted"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/canceled"
+        android:layout_width="142dp"
+        android:layout_height="94dp"
+        android:text="Canceled"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/completed"
+        android:layout_width="142dp"
+        android:layout_height="94dp"
+        android:text="Completed"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="111dp" />
+</android.support.constraint.ConstraintLayout>
