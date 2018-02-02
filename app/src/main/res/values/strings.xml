@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">EasyBid</string>
+    <string name="incompleted">Incompleted</string>
+    <string name="canceled">Canceled</string>
+    <string name="completed">Completed</string>
 </resources>
