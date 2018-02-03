@@ -3,7 +3,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_width="match_parent" android:layout_height="match_parent">
 
-<include android:layout="@layout/header"/>
 
     <Button
         android:id="@+id/incompleted"
@@ -41,5 +40,6 @@ android:layout_width="match_parent" android:layout_height="match_parent">
         android:text="@string/completed"
         android:textColor="#1B998B"
         android:textStyle="bold" />
+    
 
 </RelativeLayout>
