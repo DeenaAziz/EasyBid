@@ -19,7 +19,14 @@
         <activity android:name=".MyRequests" />
         <activity android:name=".C_completeR" />
         <activity android:name=".C_incompleteR" />
-        <activity android:name=".C_canceledR"></activity>
+        <activity android:name=".C_canceledR" />
+        <activity android:name=".Offers" />
+        <activity android:name=".Notification" />
+        <activity android:name=".RequestDetails" />
+        <activity
+            android:name=".NavDrawer"
+            android:label="@string/title_activity_nav_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
